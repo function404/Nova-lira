@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+
+.nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Carousel */
+
+.text {
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 100px;
+}
+
+.fab {
+  padding: 2%;
+  color: black;
+}
+
+.fas {
+  padding: 2%;
+  color: black;
+}
+
+.nmr {
+  margin-left: 165px;
+}
+
+.copy {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logos-pagamentos{
+  width: 50px;
+  padding: 2%;
+}
+
+.logos-pix{
+  width: 80px;
+  padding: 2%;
+}
+
+/* Forms */
+form {
+  margin-top: 70px;
+}
