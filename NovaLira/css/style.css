@@ -1,8 +1,17 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 /* header */
+
+nav.navbar{
+  background-color: aliceblue;
+}
+
+.collapse{
+  margin-left: 30px;
+}
 
 .nav-link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -17,28 +26,46 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Forms */
+
+h1.h1{
+  padding-top: 60px;
+}
+
+/* Botão enviar */
+div.botao-enviar{
+  text-align: center;
+}
+
 /* Footer */
 
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: 40px;
+  background-color: aliceblue;
 }
 
-.fab {
-  padding: 2%;
+i.fab{
+  padding: 10px;
+  font-size: 40px;
   color: black;
 }
 
-.fas {
-  padding: 2%;
+i.fab:hover{
+  color: rgb(49, 49, 49);
+}
+
+i.wts{
+  font-size: 20px;
   color: black;
 }
 
-.nmr {
-  margin-left: 165px;
+i.wts:hover{
+  color: #34af23;
 }
 
 .copy {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .logos-pagamentos{
