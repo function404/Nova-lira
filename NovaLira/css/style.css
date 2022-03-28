@@ -3,10 +3,14 @@ body {
   overflow-x: hidden;
 }
 
+body.body{
+  background-color: aliceblue;
+}
+
 /* header */
 
 nav.navbar{
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .collapse{
@@ -17,12 +21,33 @@ nav.navbar{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Jumbotron */
+  
+div.jumbotron{
+  background-color: aliceblue;
+}
+
 /* Carousel */
 
 .text {
   text-align: center;
   margin-top: 40px;
   color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Orçamento */
+
+h1.titulo{
+  color: black;
+  padding: 80px 0px 35px 0px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.sub{
+  color: black;
+  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,11 +67,11 @@ div.botao-enviar{
 footer {
   margin-top: 50px;
   padding-top: 40px;
-  background-color: aliceblue;
+  background-color: rgb(220, 236, 250);
 }
 
 i.fab{
-  padding: 10px;
+  padding: 0px 10px 0px 0px;
   font-size: 40px;
   color: black;
 }
